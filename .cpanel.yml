@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/npenderg/asset_server/
+    - /bin/cp -R * $DEPLOYPATH
